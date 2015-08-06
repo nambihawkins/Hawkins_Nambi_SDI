@@ -16,4 +16,13 @@ var race = "African American"; //String variable
 
 var greyEyes = true; //Boolean variable
 
+var nameLength = "Nambi".length = 5
+
+//Display variables
+console.log(birthPlace);
+console.log(favoriteColor);
+console.log(siblings);
+console.log(race);
+console.log(greyEyes);
+console.log(nameLength);
 
