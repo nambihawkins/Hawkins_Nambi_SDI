@@ -12,4 +12,8 @@ var favoriteColor = "red"; //String variable
 
 var siblings = 2; //Number variable
 
+var race = "African American"; //String variable
+
+var greyEyes = true; //Boolean variable
+
 
