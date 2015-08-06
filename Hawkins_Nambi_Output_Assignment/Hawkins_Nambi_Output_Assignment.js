@@ -8,4 +8,8 @@
 
 var birthPlace = "Washington DC"; //String variable
 
-//
+var favoriteColor = "red"; //String variable
+
+var siblings = 2; //Number variable
+
+
