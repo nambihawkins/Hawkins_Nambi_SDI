@@ -16,7 +16,7 @@ var race = "African American"; //String variable
 
 var greyEyes = true; //Boolean variable
 
-var nameLength = "Nambi".length = 5
+var nameLength = "Nambi".length; //Boolean variable
 
 //Display variables
 console.log(birthPlace);
@@ -24,5 +24,7 @@ console.log(favoriteColor);
 console.log(siblings);
 console.log(race);
 console.log(greyEyes);
-console.log(nameLength);
 
+if (nameLength = 5); {
+    console.log("My first name has 5 letters!");
+}
