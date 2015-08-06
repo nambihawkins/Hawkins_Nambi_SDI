@@ -6,6 +6,6 @@
 //Term: August 2015, Section 01
 //Output Assignment
 
-//I am stating the District I was born
-var birthPlace("Washington DC");
+var birthPlace = "Washington DC"; //String variable
+
 //
