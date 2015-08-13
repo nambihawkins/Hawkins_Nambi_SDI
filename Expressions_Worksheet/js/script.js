@@ -38,4 +38,4 @@
 var pricesWeekly = [260,80,559,106,325];
 var total = pricesWeekly[0] + pricesWeekly[1] + pricesWeekly[2] + pricesWeekly[3] + pricesWeekly[4];
 var average = total/5;
-console.log("You have spent a total of $" + total + "on groceries over 5 weeks. That is an average of $" + average + "per week”);
+console.log("You have spent a total of $" + total + " on groceries over 5 weeks. That is an average of $" + average + " per week");
