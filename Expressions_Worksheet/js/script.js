@@ -41,11 +41,11 @@
 //console.log("You have spent a total of $" + total + " on groceries over 5 weeks. That is an average of $" + average + " per week");
 
 //Discounts
-var itemPrice = 750;
-var discountPercentage = 20;
-var itemDescription = "iPhone 6 Plus";
-var salesTax = .06;
-discountedPrice = itemPrice - itemPrice/discountPercentage;
-discountedPriceTax = discountedPrice + discountedPrice*salesTax;
-console.log("Your " + itemDescription + " was originally $" + itemPrice + ", but after a " + discountPercentage + "% discount, it is now $" + discountedPrice + " without tax, and $" +discountedPriceTax + " with tax.");
+//var itemPrice = 750;
+//var discountPercentage = 20;
+//var itemDescription = "iPhone 6 Plus";
+//var salesTax = .06;
+//discountedPrice = itemPrice - itemPrice/discountPercentage;
+//discountedPriceTax = discountedPrice + discountedPrice*salesTax;
+//console.log("Your " + itemDescription + " was originally $" + itemPrice + ", but after a " + discountPercentage + "% discount, it is now $" + discountedPrice + " without tax, and $" +discountedPriceTax + " with tax.");
 
