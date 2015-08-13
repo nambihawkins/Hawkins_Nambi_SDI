@@ -47,5 +47,5 @@ var itemDescription = "iPhone 6 Plus";
 var salesTax = .06;
 discountedPrice = itemPrice - itemPrice/discountPercentage;
 discountedPriceTax = discountedPrice + discountedPrice*salesTax;
-console.log(discountedPrice);
+console.log("Your " + itemDescription + " was originally $" + itemPrice + ", but after a " + discountPercentage + "% discount, it is now $" + discountedPrice + " without tax, and $" +discountedPriceTax + " with tax.");
 
