@@ -2,7 +2,15 @@
 //August 13, 2015
 //Expressions Assignment
 
-var recordedTimes = [12, 11, 12, 11, 13, 14, 9]; //Entered in the Tyler's weekly times
+var weekOne = prompt("Enter Tyler's time for week 1."); //asking user for week 1 time
+var weekTwo = prompt("Enter Tyler's time for week 2."); //asking user for week 2 time
+var weekThree = prompt("Enter Tyler's time for week 3."); //asking user for week 3 time
+var weekFour = prompt("Enter Tyler's time for week 4."); //asking user for week 4 time
+var weekFive = prompt("Enter Tyler's time for week 5."); //asking user for week 5 time
+var weekSix = prompt("Enter Tyler's time for week 6."); //asking user for week 6 time
+var weekSeven = prompt("Enter Tyler's time for week 7."); //asking user for week 7 time
+
+var recordedTimes = [weekOne, weekTwo, weekThree, weekFour, weekFive, weekSix, weekSeven]; //Entered in the Tyler's weekly times as an array
 var goal = 12; //set goal speed in order to get accepted into college
 var numberOfRecordedTimes = recordedTimes.length; //found number of pieces of data in the array
 
