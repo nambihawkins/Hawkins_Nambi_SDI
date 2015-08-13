@@ -19,3 +19,10 @@
 //var dogYears = 7;
 //var age = humanYears*dogYears;
 //console.log("Sparky is" + " " + humanYears + " " + "human years old which is" + " " + age + " " + "in dog years.");
+
+//Slice of Pie Part 1
+var slicesPerPizza = 8;
+var numberOfPeople = 22;
+var numberOfPizzas = 8;
+var slicesPerPerson = slicesPerPizza*numberOfPizzas/numberOfPeople;
+console.log(slicesPerPerson);
