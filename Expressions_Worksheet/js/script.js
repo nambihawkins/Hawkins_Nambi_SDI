@@ -26,3 +26,10 @@
 //var numberOfPizzas = 8;
 //var slicesPerPerson = slicesPerPizza*numberOfPizzas/numberOfPeople;
 //console.log(slicesPerPerson);
+
+//Slices of Pie Part 2
+var slicesPerPizza = 8;
+var numberOfPeople = 22;
+var numberOfPizzas = 8;
+var slicesForSparky = slicesPerPizza*numberOfPizzas%numberOfPeople;
+console.log("Sparky gets" + slicesForSparky + "slices of pizza");
