@@ -15,7 +15,7 @@
 //console.log("The circumference of the circle is " + circumference + " " + "sq units"); //print circumference with units
 
 //Dog Years
-var humanYears = 1;
-var dogYears = 7;
-var age = humanYears*dogYears;
-console.log("Sparky is" + " " + humanYears + " " + "human years old which is" + " " + age + " " + "in dog years.");
+//var humanYears = 1;
+//var dogYears = 7;
+//var age = humanYears*dogYears;
+//console.log("Sparky is" + " " + humanYears + " " + "human years old which is" + " " + age + " " + "in dog years.");
