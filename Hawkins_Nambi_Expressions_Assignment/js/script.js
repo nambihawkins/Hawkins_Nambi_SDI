@@ -11,12 +11,14 @@ var weekSix = prompt("Enter Tyler's time for week 6."); //asking user for week 6
 var weekSeven = prompt("Enter Tyler's time for week 7."); //asking user for week 7 time
 
 var recordedTimes = [weekOne, weekTwo, weekThree, weekFour, weekFive, weekSix, weekSeven]; //Entered in the Tyler's weekly times as an array
+recordedTimesTotal = Number(recordedTimes[0]) + Number(recordedTimes[1]) + Number(recordedTimes[2]) + Number(recordedTimes[3]) + Number(recordedTimes[4]) + Number(recordedTimes[5]) + Number(recordedTimes[6]); //since the result for a prompt is returned as a string, I had to convert it to a number, then I totalled up the times in the array
+
+
 var goal = 12; //set goal speed in order to get accepted into college
 var numberOfRecordedTimes = recordedTimes.length; //found number of pieces of data in the array
 
-recordedTimesTotal = recordedTimes[0] + recordedTimes[1] + recordedTimes[2] + recordedTimes[3] + recordedTimes[4] + recordedTimes[5] + recordedTimes[6]; //totalled up the times in the array
-
 numberOfRecordedTimes ++; //added 1 to the original pieces of data in array to account for missing time
 
-target = goal * numberOfRecordedTimes - recordedTimesTotal; //calculated time Tyler needed to reach for his last run in order to meet his goal
+target = (goal * numberOfRecordedTimes) - recordedTimesTotal; //calculated time Tyler needed to reach for his last run in order to meet his goal
+
 console.log("In order for Tyler to have hit his goal of" + " " + goal + "mph, he would have had to run" + " " + target + "mph in his final race."); //concatenate results into a sentence explaining the outcome needed for Tyler to reach his goal
