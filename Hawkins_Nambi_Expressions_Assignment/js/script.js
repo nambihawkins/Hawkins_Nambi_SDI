@@ -32,5 +32,14 @@ console.log("In order for Tyler to have hit his goal of" + " " + goal + "mph, he
 
 alert("In order for Tyler to have hit his goal of" + " " + goal + "mph, he would have had to run" + " " + target + "mph in his final race."); //showing the user the results of the problem we solved for
 
-alert("If Tyler had sat out his last 2 races because of his injury, what would his average have been?") //asking user part 2 of the question
+alert("If Tyler had sat out his last 2 races because of his injury, what would his average have been?"); //asking user part 2 of the question
 
+sitOutOne = recordedTimes[0] + recordedTimes[1] + recordedTimes[2] + recordedTimes[3] + recordedTimes[4] + recordedTimes[5]; //calling all but the last value in the array and getting the total
+
+numberOfRecordedTimes --; //subtracting 1 from the length of the array to exclude the last time in the array
+
+average = sitOutOne / numberOfRecordedTimes; //calculating the average if Tyler had sat out the last 2 races
+
+console.log("If Tyler had sat out his last 2 races due to his injury, his average run time would have been" + average + "mph."); //printing to console the results by concatenating string and variable
+
+alert("If Tyler had sat out his last 2 races due to his injury, his average run time would have been " + average + "mph."); //showing the user the result to the question
