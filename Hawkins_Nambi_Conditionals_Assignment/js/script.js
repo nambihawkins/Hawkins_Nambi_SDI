@@ -22,7 +22,7 @@ if (chuteType == "trash"){
 }
 //A trash chute gets 2 pallets, a linen chute gets 3
 
-var chutesToShip = prompt("How many chutes will you be shipping? \nSometimes if the number of chutes is greater than 1" +
+var chutesToShip = prompt("How many chutes will you be shipping? \nSometimes if the number of chutes is greater than 1 " +
     "and the truck space you require is 12 feet, we will need to send your information to our quoters to determine the best" +
     "price for you");
 
@@ -30,3 +30,14 @@ var chutesToShip = prompt("How many chutes will you be shipping? \nSometimes if 
 
 var feetTotal = prompt("What is the total height of the chute?");
 //Asking user for the chute height
+
+if(Number(feetTotal) > 55) {
+    console.log("Looks like we can help you with your delivery!");
+    alert("Looks like we can help you with your delivery!");
+} else {
+    console.log(name + ", for a chute this height we would like recommend YRC. \nIf you would like to continue" +
+        "with C.H. Robinson, please press OK. \nOtherwise, go to http://my.yrc.com");
+    alert(name + ", for a chute this height we would like recommend YRC. \nIf you would like to continue" +
+        "with C.H. Robinson, please press OK. \nOtherwise, go to http://my.yrc.com");
+}
+//If the chute height is greater than 55 then we can continue. If not, we recommend that YRC is used.
