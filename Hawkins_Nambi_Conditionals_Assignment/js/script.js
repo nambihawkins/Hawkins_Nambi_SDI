@@ -32,11 +32,8 @@ var feetTotal = prompt("What is the total height of the chute?");
 //Asking user for the chute height
 
 if(Number(feetTotal) > 55) {
-    console.log("Looks like we can help you with your delivery!");
     alert("Looks like we can help you with your delivery!");
 } else {
-    console.log(name + ", for a chute this height we would like recommend YRC. \nIf you would like to continue" +
-        "with C.H. Robinson, please press OK. \nOtherwise, go to http://my.yrc.com");
     alert(name + ", for a chute this height we would like recommend YRC. \nIf you would like to continue" +
         "with C.H. Robinson, please press OK. \nOtherwise, go to http://my.yrc.com");
 }
@@ -63,6 +60,6 @@ truckSpace = ((Number(intakes)*2.8) + (((Number(feetTotal) - (Number(intakes)*5)
 alert("Your total footage for the truck will be " + truckSpace + "feet. Now we can calculate the price of your chute!");
 //letting the user know the total truck space that will be used.
 
-(truckSpace <= 12 && Number(chutesToShip) == 1) ? alert("Your freight will be $700!") : alert("We will be sending your information to one of our quoters to get the best price for you!");
+(truckSpace <= 12 && Number(chutesToShip) == 1) ? alert("Your freight will be $700!") : alert("We will have to send your information to one of our quoters to get the best price for you!");
 
 
