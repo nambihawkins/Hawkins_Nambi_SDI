@@ -48,3 +48,15 @@ var intakes = prompt(name + ", could you please tell me how many intakes your ch
 alert("Great! Now we can calculate your total truck space!");
 
 //Letting user know the next step
+
+truckSpace = ((Number(intakes)*2.8) + (((Number(feetTotal) - (Number(intakes)*5))/8) *2) + (pallets*4)
+    + 2)/2;
+
+//intakes are 36ft wide, calculating total width of  all intakes
+// intake height is 5ft, truck height is 8, subtracting intake height from total height
+//of chute to a account for additional footage. Divide additional footage by 8 to get
+//how many sections of 2ft footage the chute will take
+//pallets are 4 feet each
+// additional footage added is always 2
+//divide footage by 2 to get total space taken in 8ft wide truck
+
