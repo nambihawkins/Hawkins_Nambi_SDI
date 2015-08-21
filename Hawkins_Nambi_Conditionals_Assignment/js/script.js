@@ -63,6 +63,6 @@ truckSpace = ((Number(intakes)*2.8) + (((Number(feetTotal) - (Number(intakes)*5)
 alert("Your total footage for the truck will be " + truckSpace + "feet. Now we can calculate the price of your chute!");
 //letting the user know the total truck space that will be used.
 
-
+(truckSpace <= 12 && Number(chutesToShip) == 1) ? alert("Your freight will be $700!") : alert("We will be sending your information to one of our quoters to get the best price for you!");
 
 
