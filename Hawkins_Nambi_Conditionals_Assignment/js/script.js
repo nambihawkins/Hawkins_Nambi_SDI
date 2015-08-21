@@ -60,3 +60,9 @@ truckSpace = ((Number(intakes)*2.8) + (((Number(feetTotal) - (Number(intakes)*5)
 // additional footage added is always 2
 //divide footage by 2 to get total space taken in 8ft wide truck
 
+alert("Your total footage for the truck will be " + truckSpace + "feet. Now we can calculate the price of your chute!");
+//letting the user know the total truck space that will be used.
+
+
+
+
