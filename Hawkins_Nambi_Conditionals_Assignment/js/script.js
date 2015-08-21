@@ -41,3 +41,10 @@ if(Number(feetTotal) > 55) {
         "with C.H. Robinson, please press OK. \nOtherwise, go to http://my.yrc.com");
 }
 //If the chute height is greater than 55 then we can continue. If not, we recommend that YRC is used.
+
+var intakes = prompt(name + ", could you please tell me how many intakes your chute has?");
+//Asking using how many intakes the chute has.
+
+alert("Great! Now we can calculate your total truck space!");
+
+//Letting user know the next step
