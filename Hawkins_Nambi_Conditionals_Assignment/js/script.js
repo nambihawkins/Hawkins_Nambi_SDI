@@ -21,3 +21,12 @@ if (chuteType == "trash"){
     pallets = 3;
 }
 //A trash chute gets 2 pallets, a linen chute gets 3
+
+var chutesToShip = prompt("How many chutes will you be shipping? \nSometimes if the number of chutes is greater than 1" +
+    "and the truck space you require is 12 feet, we will need to send your information to our quoters to determine the best" +
+    "price for you");
+
+//Asking  user how many chutes will be shipping. This will determine the time it takes for them to get their quote.
+
+var feetTotal = prompt("What is the total height of the chute?");
+//Asking user for the chute height
