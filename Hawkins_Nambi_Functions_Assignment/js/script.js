@@ -34,7 +34,7 @@ var floridaSix =  lottery(1, 53, 6); //parameter for 6 numbers of Florida lotter
 
 
 function lottery(n, x, m) { //created function to obtain rancom lottery numbers
-    var random = []; // setting a mitrix for random numbers
+    var random = []; // setting a matrix for random numbers
 
     for (var a = 0; a < m; a++) // created function to start and stop the random number process after a certain number of inputs
         random[a] = Math.floor(Math.random() * (x - n)) + n; // equation for random numbers
