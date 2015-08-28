@@ -45,3 +45,7 @@ function lottery(n, x, m) { //created function to obtain rancom lottery numbers
 if (userOption === "") { //if statement for if the user chooses florida Lottery
     console.log("Your Florida Lottery numbers are " + floridaSix + "."); // printing out the lottery results
 }
+else {//else statement for Powerball results
+    console.log("Your Powerball numbers are " + powerBallFirst + ", with a final number of " + powerBallLast + ".");//giving the user Powerball results if that option was selected
+
+}
