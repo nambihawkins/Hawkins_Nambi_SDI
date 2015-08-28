@@ -41,3 +41,7 @@ function lottery(n, x, m) { //created function to obtain rancom lottery numbers
 
     return random //outputting the variable for the random number matrix
 }
+
+if (userOption === "") { //if statement for if the user chooses florida Lottery
+    console.log("Your Florida Lottery numbers are " + floridaSix + "."); // printing out the lottery results
+}
